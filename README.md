@@ -12,7 +12,7 @@ git clone https://github.com/fabio-carvalho88/Requestifun
 npm install
 ```
 
-### Project start
+### Run the app
 ```
 node server / nodemon server 
 ```
