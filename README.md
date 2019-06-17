@@ -1,9 +1,18 @@
 # Requestifun
 
-Repo for the Requestifun app which allows the user to request items and classrooms. 
+Project developed at [Escola Superior de Media Artes e Design](https://www.esmad.ipp.pt/) (ESMAD) from [Instituto Politécnico do Porto](https://www.ipp.pt/) (IPP), made for the curricular unit Programação Web II (PWII). This application focuses on supporting and improving the requisition of items and classrooms.
 
-To run: 
+## Git Clone
+```
+git clone https://github.com/fabio-carvalho88/Requestifun
+```
 
--npm install
+## Project setup
+```
+npm install
+```
 
--node/nodemon server.js
+### Project start
+```
+node server / nodemon server 
+```
