@@ -1,0 +1,22 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Requisition Date</th>
+            <th>Deadline Date</th>
+            <th>Item Name</th>
+            <th>Item Model</th>
+            <th>Quantity</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#reqs}}
+        <tr>
+            <td>{{reqDate}}</td>
+            <td>{{returnDate}}</td>
+            <td>{{itemName}}</td>
+            <td>{{itemModel}}</td>
+            <td>{{quantity}}</td>
+        </tr>
+        {{/reqs}}
+    </tbody>
+</table>

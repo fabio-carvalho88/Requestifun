@@ -1,0 +1,34 @@
+<div class="row mt-5">
+    <div class="col-md-6 m-auto">
+        <div class="card card-body">
+            <h1 class="text-center mb-3"><i class=""></i> Request Item</h1>
+            {{!-- Mensagens alerta de erro --}}
+            {{#if errors}}
+            {{#each errors}}
+            <div class="alert alert-danger">
+                {{msg}}
+            </div>
+            {{/each}}
+            {{/if}}
+            <form action="/postReq" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="reqName" name="name" class="form-control" placeholder="Enter item name" />
+                </div>
+                <div class="form-group">
+                    <label for="model">Model</label>
+                    <input type="text" id="reqModel" name="model" class="form-control" placeholder="Enter item model" />
+                </div>
+                <div class="form-group">
+                    <label for="model">Quantity</label>
+                    <input type="text" id="reqQuantity" name="quantity" class="form-control"
+                        placeholder="Enter item quantity" />
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Make Requisition</button>
+            </form>
+            <p class="lead mt-4">
+                Want to see more? <a href="/readItems">Go to catalog</a>
+            </p>
+        </div>
+    </div>
+</div>
