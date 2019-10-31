@@ -21,7 +21,7 @@
     "fetch": "^1.1.0",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.2.7",
-    "mongoose": "^5.5.9",
+    "mongoose": "^5.7.5",
     "node-fetch": "^2.6.0",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
